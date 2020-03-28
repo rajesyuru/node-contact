@@ -9,7 +9,7 @@ getContacts = () => {
     if (contacts === null) {
         contacts = [];
 
-        saveContacts();
+        saveContacts(contacts);
     }
 
     return contacts;
